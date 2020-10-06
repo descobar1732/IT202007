@@ -28,7 +28,8 @@ if(isset($_POST["register"])){
   }
   else{
     echo "Passwords don't match<br>";
-    $isValid = false}
+    $isValid = false
+  }
   if(!isset($email) || !isset($password) || !isset($confirm)){
    $isValid = false; 
   }
