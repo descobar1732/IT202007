@@ -1,6 +1,6 @@
 body {
-    font-family: system;
-    font-size: 1.5em;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
 }
 
 ul[class="nav"]{
@@ -8,7 +8,7 @@ ul[class="nav"]{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #026e02;
+    background-color: #6e022a;
 }
 
 .nav > li {
@@ -19,33 +19,34 @@ ul[class="nav"]{
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 16px;
+    padding: 20px;
     text-decoration: none;
 }
 
 .nav > li a:hover {
-    background-color: #39ca40;
+    background-color: #ca3989;
 }
 
 input, select {
-    width: 100%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
+    display: block;
+    border: 2px solid #aeaeae;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 input[type=submit] {
-    width: 100%;
-    background-color: #026e02;
+    width: 10%;
+    background-color: #6e022a;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+
 }
 
 input:nth-of-type(1) {
