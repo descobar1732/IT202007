@@ -1,6 +1,7 @@
 body {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.2em;
+    background-color: #828182;
 }
 
 ul[class="nav"]{
@@ -28,8 +29,8 @@ ul[class="nav"]{
 }
 
 input, select {
-    width: 50%;
-    padding: 12px 20px;
+    width: 30%;
+    padding: 6px 20px;
     margin: 8px 0;
     display: block;
     border: 2px solid #aeaeae;
